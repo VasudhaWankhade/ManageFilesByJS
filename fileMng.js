@@ -41,8 +41,8 @@ const filePath = '/one.txt'
 
 // To delete file
 
-if (fs.existsSync(dirPath)) {
-    fs.unlinkSync(dirPath + '/directoryhi.txt')
-} else {
-    console.log(`${dirPath} not found`)
-}
+// if (fs.existsSync(dirPath)) {
+//     fs.unlinkSync(dirPath + '/directoryhi.txt')
+// } else {
+//     console.log(`${dirPath} not found`)
+// }
